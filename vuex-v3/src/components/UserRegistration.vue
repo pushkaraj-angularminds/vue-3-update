@@ -14,12 +14,12 @@
 export default {
   data() {
     return {
-      enteredName: "",
+      enteredName: '',
     };
   },
   methods: {
     createUser() {
-      this.$store.dispatch("addUser", { name: this.enteredName });
+      this.$store.dispatch('addUser', { name: this.enteredName });
       this.enteredName = '';
     },
   },

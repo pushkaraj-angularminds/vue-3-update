@@ -12,9 +12,9 @@ import UserRegistration from './components/UserRegistration.vue';
 export default {
   components: {
     UserList,
-    UserRegistration
-  }
-}
+    UserRegistration,
+  },
+};
 </script>
 
 <style>
@@ -37,5 +37,4 @@ body {
   padding: 1rem;
   border-radius: 12px;
 }
-
 </style>
